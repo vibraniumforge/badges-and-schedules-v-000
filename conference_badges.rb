@@ -13,7 +13,7 @@ end
 
 def assign_rooms(name)
   myAr=[]
-  name.each_with_index{|element, index| myAr <<  "Hello, #{element}! You'll be assigned to room #{index+1}!"}
+  name.each_with_index{|name, index| myAr <<  "Hello, #{name}! You'll be assigned to room #{index+1}!"}
 end
 
 def printer(name)
