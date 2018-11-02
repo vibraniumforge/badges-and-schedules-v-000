@@ -10,8 +10,9 @@ def batch_badge_creator(name)
   counter=0
   while counter < name.length
     myAr << badge_maker(name)
+    counter+=1
   end
-  counter+=1
+  
   # name.each {|item| return myAr.push(badge_maker(item)) }
   # return badge_maker(name)
   # return "Hello, my name is #{name}."
