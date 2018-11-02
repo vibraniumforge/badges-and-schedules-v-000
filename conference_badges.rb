@@ -6,11 +6,10 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(name)
-  puts name
   myAr=[]
   counter=0
   while counter < name.length
-    myAr >> badge_maker(name)
+    myAr << badge_maker(name)
   end
   # name.each {|item| return myAr.push(badge_maker(item)) }
   # return badge_maker(name)
