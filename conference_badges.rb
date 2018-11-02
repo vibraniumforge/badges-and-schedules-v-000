@@ -2,7 +2,7 @@
 
 def badge_maker(name)
   # return "Hello, my name is #{name}."
-  name.each {|item| puts "Hello, my name is #{item}."}
+  name.each {|name| puts "Hello, my name is #{name}."}
 end
 
 def batch_badge_creator(name)
