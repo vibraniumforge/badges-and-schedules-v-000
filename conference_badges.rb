@@ -6,6 +6,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(name)
+  puts name
   myAr=[]
   name.each {|item| return myAr.push(badge_maker(item)) }
   # return badge_maker(name)
