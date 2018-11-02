@@ -18,5 +18,4 @@ end
 
 def printer(name)
   puts badge_maker(name)
-
 end
